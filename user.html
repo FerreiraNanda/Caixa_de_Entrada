@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User</title>
+    <link rel="stylesheet" href="./style_navbar.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <nav>
+        <div class="links">
+            <ul class="nav-itens">
+                <li><a href="#" id="user" class="icon"><span class="material-symbols-outlined">person</span></a></li>
+                <li><a href="#" id="mail" class="icon"><span class="material-symbols-outlined">mail</span></a></li>
+                <li><a href="#" id="play" class="icon"><span class="material-symbols-outlined">play_arrow</span></a></li>
+            </ul>
+            <ul class="nav-itens">
+                <li class="logout"><a href="#" id="logout" class="icon"><img src = "assets\logout-svgrepo-com.svg"></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" id="closemodal" href ="#">&times;</span>
+            <p class="modal-title">Tem certeza que deseja desistir?</p>
+            <div class="modal-warning">
+                <img src="assets\attention.svg">
+            </div>
+            <div class="modal-buttons">
+                <button class="btn btn-yes" id="confirm-yes">SIM</button>
+                <button class="btn btn-no" id="confirm-no">NÃO</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
